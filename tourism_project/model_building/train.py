@@ -11,7 +11,7 @@ from sklearn.preprocessing import OneHotEncoder, StandardScaler
 import joblib
 import mlflow
 
-mlflow.set_tracking_uri(public_url)
+mlflow.set_tracking_uri("http://localhost:5000")
 mlflow.set_experiment("tourism_ml")
 
 # Xtrain/Xtest/ytrain/ytest are downloaded from the previous job's artifact
