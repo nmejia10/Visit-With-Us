@@ -20,7 +20,7 @@ Xtest = pd.read_csv("Xtest.csv")
 ytrain = pd.read_csv("ytrain.csv").squeeze()
 ytest = pd.read_csv("ytest.csv").squeeze()
 
-eatures = ["Age", "TypeofContact", "CityTier",
+features = ["Age", "TypeofContact", "CityTier",
     "DurationOfPitch", "Occupation", "Gender", "NumberOfPersonVisiting",
     "NumberOfFollowups", "ProductPitched", "PreferredPropertyStar",
     "MaritalStatus", "NumberOfTrips", "Passport", "PitchSatisfactionScore",
